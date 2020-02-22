@@ -1,6 +1,6 @@
 function [feas, xOpt, uOpt, JOpt] = solveCFTOC(nx,nu,Ts, P, Q, R, N, x0, ...
      uL, uU, bf, Af, xDes, uOld)
-% This function solves the constraint finite-time optimal control problem
+% This function solves the constrained finite-time optimal control problem
 % over the prediction horizon, N. 
 
 % Define state matrix
